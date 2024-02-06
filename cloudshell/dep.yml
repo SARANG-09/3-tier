@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tomcat
+  labels:
+    app: studentapp
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: studentapp
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: studentapp
+    spec:
+      containers:
+      - name: tomcat
+        image: shrungali2805/my-repo:latest
+        ports:
+        - containerPort: 33768

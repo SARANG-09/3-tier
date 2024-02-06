@@ -1,0 +1,9 @@
+!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="refresh" content="0;url=http://a650ead8417224e33aa8dd0668d1e348-1537268952.ap-southeast-2.elb.amazonaws.com">
+</head>
+<body>
+  Redirecting to the specified IP address...
+</body>
+</html>
